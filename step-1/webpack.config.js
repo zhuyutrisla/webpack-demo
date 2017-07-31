@@ -11,10 +11,5 @@ module.exports = {
         loader: 'babel-loader?presets[]=es2015&presets[]=react'
       },
     ]
-  },
-  resolve: {
-    alias: {
-      'vue$': 'vue/dist/vue.common.js'
-    }
   }
 }
