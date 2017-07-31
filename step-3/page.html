@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="app" v-cloak>
+      <div class="newTask">
+        <span class="head">请输入待办事项</span><input type="text" v-model="newTodo" v-on:keypress.enter="addTodo">
+      </div>
+      <ol class="todos">
+        <li v-for="todo in todoList">
+          <input type="checkbox" v-model="todo.done">
+          事项名称：{{ todo.title }} 
+          <span v-if="todo.done">已完成</span>
+          <span v-else>未完成</span>
+          <button v-on:click="removeTodo(todo)">X</button>
+          <br>
+          创建时间：{{ todo.createAt}}
+        </li>
+      </ol>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>

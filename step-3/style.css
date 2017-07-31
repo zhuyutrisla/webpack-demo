@@ -1,0 +1,40 @@
+*{
+  padding: none;
+  margin: none;
+}
+body{
+  background: url('https://ooo.0o0.ooo/2017/07/31/597f2b5cc01b0.jpg')
+}
+#app{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 500px;
+  box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.5);
+  background: #fff;
+  transform: translate(-50%,-50%);
+}
+
+
+
+.newTask .head{
+  display: inline-block;
+  padding: 0 20px;
+  margin: 30px 10px;
+
+}
+
+ol>li{
+  padding: 10px; 
+  border-bottom: 1px solid #ccc;
+}
+
+ol span{
+  padding: 0  10px; 
+  line-height: 50px;
+}
+[v-cloak] {
+  display: none;
+}
+
