@@ -7,3 +7,5 @@ var app = new Vue({
     message: 'Hello World!!!!!'
   }
 })
+
+bar()
