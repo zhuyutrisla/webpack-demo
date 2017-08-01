@@ -1,0 +1,69 @@
+*{
+  padding: none;
+  margin: none;
+}
+input{
+  padding: 5px;
+  border: 1px solid;
+  margin: 10px;
+}
+
+/* input:focus { 
+    box-shadow: 0px 0px 3px 3px blue;
+} */
+
+
+body{
+  background: url('https://ooo.0o0.ooo/2017/07/31/597f2b5cc01b0.jpg')
+}
+
+#signInAndSignUp{
+  margin: 50px auto;
+  width: 200px;
+}
+
+.formAction input{
+  padding: 10px;
+  width: 50%;
+  margin: 10px;
+  display: inline-block;
+}
+#app{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 500px;
+  box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.5);
+  background: #fff;
+  transform: translate(-50%,-50%);
+  overflow: auto;
+}
+
+
+
+.newTask .head{
+  display: inline-block;
+  padding: 0 20px;
+  margin: 30px 10px;
+
+}
+
+#todo>p>button {
+ background: red;
+ margin: 20px 0 0 20px;
+ padding: 10px;
+}
+ol>li{
+  padding: 10px; 
+  border-bottom: 1px solid #ccc;
+}
+
+ol span{
+  padding: 0  10px; 
+  line-height: 50px;
+}
+[v-cloak] {
+  display: none;
+}
+
