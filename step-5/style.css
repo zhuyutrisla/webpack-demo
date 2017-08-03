@@ -1,7 +1,4 @@
-*{
-  padding: none;
-  margin: none;
-}
+
 input{
   padding: 5px;
   border: 1px solid;
@@ -14,8 +11,9 @@ input{
 
 
 body{
-  background: url('https://i.loli.net/2017/08/01/5980707659780.jpg');
-  background-size: cover;
+	margin: 0;
+	background: linear-gradient(to bottom, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100vh;
 }
 
 #signInAndSignUp{
@@ -29,6 +27,9 @@ body{
   width: 50%;
   margin: 35px;
   display: inline-block;
+	background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border:none;
+	border-radius: 3px;
 }
 #app{
   position: absolute;
@@ -36,8 +37,9 @@ body{
   left: 50%;
   width: 600px;
   height: 400px;
-  background: white;
-  box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.5);
+	background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 3px;
   transform: translate(-50%,-50%);
   overflow: auto;
 
@@ -62,9 +64,12 @@ h2{
 #todo>p>button {
  margin: 20px 0 0 20px;
  padding: 10px;
+ background: white;
+ border-radius: 3px;
+ border: none;
 }
 #todo>p>button:hover{
-  background: red;
+  background: linear-gradient(to right, #f00000, #dc281e)
 }
 
 ol>li{

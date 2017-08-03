@@ -15,10 +15,10 @@
         <div class="signUp" v-if="actionType=='signUp'">
           <form @submit.prevent=signUp>
             <div class="formRow">
-              用户名<input type="text" v-model="formData.username"> 
+              用户名<input type="text" v-model="formData.username" placeholder="请输入用户名">  
             </div>
             <div class="formRow">
-              密码<input type="password" v-model="formData.password">
+              密码<input type="password" v-model="formData.password" placeholder="请输入密码">
             </div>
             <div class="formAction">
               <input type="submit" value="注册">
@@ -28,10 +28,12 @@
         <div class="login" v-if="actionType=='login'">
           <form @submit.prevent="login">
             <div class="formRow">
-              用户名<input type="text" v-model="formData.username">
+              用户名<input type="text" v-model="formData.username"
+              placeholder="请输入用户名">
             </div>
             <div class="formRow">
-              密码<input type="password" v-model="formData.password">
+              密码<input type="password" v-model="formData.password"
+              placeholder="请输入密码">
             </div>
             <div class="formAction">
               <input type="submit" value="登入">
